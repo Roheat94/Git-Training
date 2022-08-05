@@ -28,4 +28,5 @@ git checkout master –  Switch to master branch
 git merge <branch name>– Merges the current branch to branch master 
 git checkout –b <branch name> - Creates a new branch and directly takes you in it
 git clone <URL> - Clones the code
-abs
+
+This is my new edit
