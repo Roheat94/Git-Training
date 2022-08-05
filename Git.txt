@@ -1,0 +1,31 @@
+Cd: Home directory
+Pwd: present working directory (It will show in which folder/directory currently working)
+ 
+git help: provides list of all available commands
+git config - - global user.name “xyz”: creates a username (config command)
+git config - - global user.email “xyz”: registers emailID (config command)
+git config - - global - - list: provides the details list of usernames and their configs (config command)
+git init: Git initialization 
+git commit -a: Create snapshot
+git commit –m “message”: creates initial snapshot of all the file
+git commit –a  –m “message” : Creates snapshot (Directly commits the file directly from the modified area)
+git add <file name>: Moves the file from untracked to staging area
+git add - -A: Add all files from UNTRACKED to STAGING area directly
+git status: Check the status of the files created/modified
+git checkout <file name>: Recovers the last saved file before modified
+git checkout –f: Recovers/Matches ALL the last saved files before modified/edited (All files)
+git log – Shows the last commit details (Author/date/commit)
+git log –p – (any number of last logs 1,2,3) : shows the last N no.of log files/commits
+clear – Clears all previous commands from the terminal screen
+git diff: Shows exact difference of what was modified (Compares working tree with staging area)
+git diff - - staged: Compares working tree with staging area
+git rm <file name.html> – deletes the unwanted file from directory
+git rm - - cached <file name> : Undo the file from Staging to Untracked area 
+ls – shows all the file present in the project
+git branch <file name xyz>– Creates a branch (testing) which is separated from the branch master (prod); which is normally used for testing purpose
+git checkout <branch name>– toggles between branch master and branch 
+git checkout master –  Switch to master branch
+git merge <branch name>– Merges the current branch to branch master 
+git checkout –b <branch name> - Creates a new branch and directly takes you in it
+git clone <URL> - Clones the code
+abs
